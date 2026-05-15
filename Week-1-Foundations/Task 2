@@ -1,0 +1,23 @@
+AWS Risk Scenario: Misconfigured S3 Bucket
+
+1. The Risk
+
+Sensitive data is exposed to the public internet because an **Amazon S3 bucket** has been configured with "Public Read" access. This is usually caused by human error during development or incorrect IAM policies.
+
+2. Impact
+
+Data Leakage:** Exposure of PII (names, emails) or proprietary code.
+Compliance Failure:** Violation of GDPR, HIPAA, or PCI-DSS.
+Reputational Damage:** Loss of customer trust and potential legal action.
+
+3. Who is Responsible?
+
+The Customer:** Responsible for configuration, access policies, and data security (**Security IN the Cloud**).
+AWS:** Responsible for the physical infrastructure and the S3 service uptime (**Security OF the Cloud**).
+
+4. Mitigation Strategy
+
+Enforce Defaults:** Enable **S3 Block Public Access** at the account level.
+Least Privilege:** Use **IAM Policies** to restrict access to specific users/roles only.
+Automation:** Use **AWS Config** to automatically detect and remediate buckets that become public.
+Encryption:** Enable **AES-256 Server-Side Encryption (SSE)** to protect data at rest.
