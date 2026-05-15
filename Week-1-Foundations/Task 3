@@ -1,0 +1,12 @@
+AWS Infrastructure Summary
+1. Regions
+A Region is a physical geographic area (e.g., US-East-1) containing a cluster of data centers. They are isolated from one another to ensure fault tolerance and help with data residency compliance.
+
+2. Availability Zones (AZs)
+An AZ consists of one or more discrete data centers within a Region. Each has redundant power, cooling, and networking. They are separated by miles to prevent a single local disaster from taking down an entire Region.
+
+3. Global Infrastructure
+The worldwide network of Regions, AZs, and Edge Locations. This includes a private, high-capacity fiber backbone that connects all AWS services globally for low-latency performance.
+
+4. High Availability (HA)
+A design goal to ensure a system is always operational. In AWS, this is achieved by Multi-AZ deployments—running your application in two or more AZs simultaneously so that if one fails, the others take over with no downtime.
