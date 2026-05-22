@@ -1,0 +1,45 @@
+Scaling is the ability to increase or decrease resources based on workload demand.
+
+Vertical Scaling
+
+Increasing the power of a single server.
+
+Add more CPU, RAM, or storage
+Simple but has hardware limits
+Example: upgrading an EC2 instance size
+Horizontal Scaling
+
+Adding more servers or instances.
+
+Distributes workload across multiple machines
+Improves availability and fault tolerance
+Common in cloud environments
+Auto Scaling
+
+Automatically adjusts resources based on traffic or usage.
+
+Scales out during high demand
+Scales in during low demand
+Helps reduce costs and improve performance
+Elasticity
+
+The cloud’s ability to rapidly scale resources up or down as needed.
+
+Resources match current demand
+Prevents overprovisioning
+Load Balancing
+
+Distributes incoming traffic across multiple servers.
+
+Prevents one server from overload
+Improves reliability and availability
+Serverless Scaling
+
+In services like AWS Lambda, scaling happens automatically without managing servers. AWS creates more function instances as requests increase.
+
+Key Idea
+Vertical scaling = bigger server
+Horizontal scaling = more servers
+Auto scaling = automatic adjustment
+Elasticity = flexible resource usage
+Load balancing = traffic distribution
