@@ -1,0 +1,5 @@
+Amazon EC2 is a traditional compute service where you manage virtual servers, operating systems, scaling, updates, and security configurations. It is best for long-running applications, custom environments, and workloads that require full control of infrastructure.
+
+AWS Lambda is a serverless compute service where AWS manages the infrastructure for you. It automatically scales and only runs code when triggered by events. It is best for short, event-driven workloads, APIs, automation, and microservices.
+
+EC2 gives maximum flexibility and control but requires more operational management. Lambda reduces maintenance and operational overhead but provides less infrastructure control. EC2 charges for server uptime, while Lambda charges only when code executes.
