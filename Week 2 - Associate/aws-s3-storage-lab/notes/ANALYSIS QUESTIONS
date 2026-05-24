@@ -1,0 +1,17 @@
+1. **What is Amazon S3?**
+   Amazon Web Services S3 is AWS cloud storage for files, backups, videos, images, and data.
+
+2. **What is object storage?**
+   Storing data as objects/files in the cloud instead of normal hard drive folders.
+
+3. **What risks exist with public buckets?**
+   Anyone online could access or leak your data.
+
+4. **Why do storage classes exist?**
+   To save money based on how often data is used.
+
+5. **What storage class would fit backups?**
+   Glacier / archive storage.
+
+6. **Why must cloud storage be governed carefully?**
+   To avoid leaks, data loss, and high costs.
